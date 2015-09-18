@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNG">
+<parameter name="Brand" value="Bizrate"/>
+<parameter name="Framework" value="Webdriver 2.0"/>
+
+<test name="RegressionTestCases">
+	<classes>
+		<class name="com.testsuite.BizrateTestSuite"></class>
+    		<methods>
+	    		<include name="setup" />
+	    		<include name="verifyShoppingAlertButtonAbsence" />
+	    		<include name="verifyRefineKeyword" />
+	    		<include name="verifyPageIntroAbsenceFor7Yand8N" />	  
+	    		<include name="verifyAttributeInCoolExperience" />
+	    		<include name="verifyGACode" />
+	    		<include name="verifyComscoreGAAbsenceForBot" />
+				<include name="verifyGoogleInsightSurvey" />
+				<include name="verifyOverallSatisfactionPodAlignmentIn6E" />
+				<include name="verifySmileyStatusOnMerchantPages" />
+
+
+   				<include name="verifyNoSlimLayoutForHotPagesSEM" />
+ 				<include name="verifyMerchantPagesForC14N" />
+    			<include name="verifyMerchantPaginations" />
+    			
+    			
+    			<!--Test No Longer Valid 	
+	    			<include name="verifyInterstitial" />
+	 				<include name="verifyPLAAbsence" />
+				-->
+    		</methods>
+   	</classes>
+</test> 
+
+
+</suite>
+

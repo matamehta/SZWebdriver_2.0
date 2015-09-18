@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNG">
+
+<parameter name="Brand" value="Bizrate"/>
+<parameter name="Framework" value="Webdriver 2.0"/>
+
+<test name="UnitTestCases">
+	<classes>
+		<class name="com.testsuite.BizrateTestSuite"></class>
+    		<methods>
+        		<include name="setup" />
+	    		<include name="verifyRefineKeyword" />
+	    		
+			</methods>
+   	</classes>
+</test> 
+
+
+</suite>
+

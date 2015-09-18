@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG]">
+  <parameter name="Brand" value="Bizrate"/>
+  <parameter name="Framework" value="Webdriver 2.0"/>
+  <test name="UnitTestCases(failed)">
+    <classes>
+      <class name="com.testsuite.BizrateTestSuite">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyRefineKeyword"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.testsuite.BizrateTestSuite -->
+    </classes>
+  </test> <!-- UnitTestCases(failed) -->
+</suite> <!-- Failed suite [TestNG] -->
